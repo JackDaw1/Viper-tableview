@@ -12,7 +12,7 @@ protocol ViewInputProtocol : AnyObject {
     var presenter: PresenterInputProtocol? {get set}
     
     //тут методы из Presenter
-    func showData(data: LoadData.ViewModel)
+    //func showData(data: LoadData.ViewModel)
     
 }
 
